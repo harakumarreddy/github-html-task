@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <fieldset>
+    <center><img src="https://upload.wikimedia.org/wikipedia/te/0/05/TSRTC_LOGO.png" width="90"
+    </center>
+    <center><b><h1>TELANGANA STATE ROAD TRANSPORT COORPORATION </h1></b></center><br>
+    <center><b><h2>GENERAL BUS PASS APPLICATION </h2></b></center>
+    </fieldset>
+    <fieldset>
+        <legend><b>APPLICANT DETAILS</b></legend>
+        <form autocomplete="off" action="./form2.html">
+            <label for="name">NAME:</label>
+            <input id="name" type="text">
+            <label for="fahter name">Father name :</label>
+            <input id="father name" type="text"><br><br>
+            <label for="DOB">Date of birth:</label>
+            <input id="DOB" type="date" width="600">
+            <label for="">Gender:</label>
+            <input type="radio" name="gender">Male 
+            <input type="radio" name="gender">Female<br><br>
+            <label for="age">Age:</label>
+            <input id="age" type="number">
+            <label for="Aadhar">Aadhar No:</label>
+            <input id="Aadhar" type="text" pattern="[0-9]{12}"><br><br>
+            <label for="">Mobile No:</label>
+            <input type="text" pattern="[6-9][0-9]{9}">
+            <label for="mail">E-Mail:</label>
+            <input id="mail" type="email" pattern="[a-z]+[-!@#$%&*]+[0-9]+@gmail.com"><br><br>
+            <label>photo:</label>
+            <input type="file">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend><label>Resedantial Address Details</label></legend>
+        <label>Applicant's Address</label>
+        <textarea name="add" height="70" width="30" required></textarea>
+        <label>District:</label>
+        <select required>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Adilabad">Adilabad</option>
+            <option value="Hanumakonda">Hanumakonda</option>
+            <option value="Jagitail">Jagitail</option>
+        </select><br><br>
+        <label>Mandal:</label>
+        <select>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="ammerpet">ammerpet</option>
+            <option value="Nampally">Nampally</option>
+            <option value="Golconda">Golconda</option>
+        </select>
+        <label>Village:</label>
+        <select required>
+             <option value="Hyderabad">Hyderabad</option>
+        </select><br><br>
+        <label for="pcode">pincode:</label>
+        <input id="pcode" type="text" pattern="[0-9]">
+    </fieldset>
+    <fieldset style="width:900px;">
+        <legend>Pass Type Details</legend>
+        <form>
+        <label>City:</label>
+        <select required>
+            <option value="Hyderabad">Hyderabad</option>
+        </select><br><br>
+        <label>Pass Type:</label>
+        <select required>
+            <option value="---select---">---select---</option>
+            <option value="GREATER PASS">GREATER PASS</option>
+            <option value="GENERAL ORDINARY ROUTE PASS MLTY">GENERAL ORDINARY ROUTE PASS MLTY</option>
+            <option value="GENERAL METRO EXPRESS ROUTE PASS MLTY">GENERAL METRO EXPRESS ROUTE PASS MLTY</option>
+            <option value="ORDINARY PASS">ORDINARY PASS </option>
+            <option value="METRO EXPRESS PASS">METRO EXPRESS PASS</option>
+            <option value="METRO DELUXE PASS">METRO DELUXE PASS</option>
+        </select>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Mode off payment & pass collection</legend>
+        <form>
+            <label>payment mode:</label>
+            <select required>
+                <option value="select payment mode">select payment mode</option>
+                <option value="payment at counter">payment at counter</option>
+            </select><br><br>
+            <label>pass deliver mode:</label>
+            <select required>
+                <option value="select pass delivery mode">select pass delivery mode </option>
+                <option value="at counter">at counter</option>
+                </select><br><br>
+                <label>Center at which you want to collect pass</label>
+                <select required>
+                    <option value="---select---">---select---</option>
+                    <option value="RTC ABIDS -- HYD[03/07/2025]">RTC ABIDS -- HYD[03/07/2025]</option>
+                    <option value="RTC AIRPORT--HYD[02/07/2025]">RTC AIRPORT--HYD[02/07/2025]</option>
+                    <option value="RTC JBS--HYD[09/04/2025]">RTC JBS--HYD[09/04/2025]</option>
+                    <option value="RTC KOTI--HYD[09/03/2025]">RTC KOTI--HYD[09/03/2025]</option>
+            </select>
+        </form>
+    </fieldset>
+    <form>
+        <input type="button" value="submit">
+    </form>
+</body>
+</html>
